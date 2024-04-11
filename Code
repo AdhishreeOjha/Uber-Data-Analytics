@@ -2,3 +2,9 @@ https://colab.research.google.com/drive/1THEqW1RE6FC9k4M7l2eXnZw3iu7E9fhM#scroll
 The code goes here:
 from google.colab import drive
 drive.mount('/content/drive')
+import pandas as pd
+import io
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+import calendar
