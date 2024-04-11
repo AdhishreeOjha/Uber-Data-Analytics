@@ -8,3 +8,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 import calendar
+df=pd.read_csv("/content/drive/MyDrive/dataset/uber_data.csv")
+df.info()
+df.head()
+df.tail()
+print(df.shape)
+df.dtypes
