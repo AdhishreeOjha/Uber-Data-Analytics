@@ -1,1 +1,4 @@
-https://colab.research.google.com/drive/1THEqW1RE6FC9k4M7l2eXnZw3iu7E9fhM#scrollTo=GIjMUymqge-e
+https://colab.research.google.com/drive/1THEqW1RE6FC9k4M7l2eXnZw3iu7E9fhM#scrollTo=GIjMUymqge-e :Send Request to get access:)
+The code goes here:
+from google.colab import drive
+drive.mount('/content/drive')
