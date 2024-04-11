@@ -14,3 +14,6 @@ df.head()
 df.tail()
 print(df.shape)
 df.dtypes
+df.isna().sum()
+df['tpep_pickup_datetime'] = pd.to_datetime(df['tpep_pickup_datetime'])
+df['tpep_dropoff_datetime'] = pd.to_datetime(df['tpep_dropoff_datetime'])
